@@ -1,8 +1,6 @@
 import axios from 'axios'
 import createPersistedState from "vuex-persistedstate";
 
-const YOUTUBE_API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY
-const YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
 
 export default{
   plugins: [

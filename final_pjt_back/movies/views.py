@@ -12,7 +12,6 @@ import json
 import requests
 import pprint
 
-api_key = '3e522bb11d9503474e85e9a710de1de4'
 TMDB_MOVIES_POPULAR_API= f'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&sort_by=popularity.desc&api_key={api_key}&language=ko-KR'
 
 TMDB_MOVIES_TOP_RATED_API= f'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200&api_key={api_key}&language=ko-KR'
